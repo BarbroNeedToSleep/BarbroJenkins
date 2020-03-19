@@ -15,6 +15,7 @@ pipeline {
                         junit '**/*xml'
                     }
                 }
+	}
     }
 
 }
