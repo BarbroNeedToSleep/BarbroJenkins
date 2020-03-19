@@ -1,0 +1,41 @@
+Testfallen är utvecklade, dokumenterade, skrivna och körda i Pycharm med Selenium librarys av:
+Barbro Hagman och Daniel Davis.
+
+Testfall 1: Log in with the wrong credentials [Tags] Testfall 1: Negative. Test passed.
+Testfallet är ett användningsfall och är utformat för att misslyckas med att logga in. Testet uförs 
+med ett oregistrerat email och lösenord som gör att det inte går att logga in på sidan och ger 
+ett felmeddelande. Testfallet kontrollerar kravet angivet under Header, fel information vid inloggning
+och ett felmeddelande i kravdokumentationen.
+
+Testfall 2: Test MyPage [tags] Testfall 2: Gherkin Test MyPage. Test passed.
+Testfallet är skrivet med en Gherkin-syntax. Testet är ett användningsfall och är utformat med
+hjälp av Gherkin metoden. Fallet går ut på att en användare ska kunna logga in på sidan och nå 
+delen My page på sidan. Testfallet uppfyller kravet angivet under Header, lyckad inloggning och 
+visning av My Page angivet i kravdokumentationen.
+
+
+Testfall 3: Input No Value  [tags] Testfall 3: Submit no value. Test passed.
+Testfallet är ett användningsfall och är utformat för att få en varning när användaren inte 
+har angivit email vid inloggning. Testet utförs med att inget email anges och testet går vidare till
+login knappen och ett varningsmeddelande anges. Testet uppfyller kravet Header, 
+ett inloggningsfält lämnas tomt och varningsmeddelande uppkommer i kravdokumentationen.
+
+
+Testfall 4: Reset button on Date Selection [tags] Testfall 4: Reset Button. Test passed.
+Testfallet är ett användingsfall. Testet är utformat för att användaren inte skall kunna gå vidare i 
+bokningen vid inkorrekt inmatning utan att använda reset knappen. Efter att testet angivit 0 på datum
+fältet och användt reset knappen för att ge korrekt datum och kan testet gå vidare till sidan 
+vilken bil användaren vill boka. Testet uppfyller kravet Date selection, reset button kommer att ladda
+om sidan ifall inkorrekt inmatning sker, och ett varningsmeddelande kommer fram. Om korrekt data är 
+inmatad kommer användaren kunna gå vidare till val av bil sidan.
+
+Testfall 5: Long test  [Tags] Testfall 5: try buy. Test passed.
+Testfallet är ett användningsfall. Testet är utformat för en användare att logga in, se sidor, boka 
+en bil, avboka en bil och logga ut. Testet uppfyller kraven i Date selection: korrekt input, 
+Car selection: Korrekt input, Confirm booking: Korrekt input, Successful Booking: korrekt input,
+My Page: avboking av bil.
+
+Födelarna vid automatisk testning av denna sida är om man ska kunna göra om samma test många 
+gånger efter till exempel vid uppdateringar av sidan. Alla testen är bra för just uppdateringar av sidor.
+
+Det svåra med labben var git och korrekt datuminmatning beroende på browser.
